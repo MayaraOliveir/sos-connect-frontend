@@ -56,9 +56,6 @@ export default function Settings() {
           },
         );
         const updatedUser = response.data;
-        const storedUser = JSON.parse(
-          localStorage.getItem("@sos-connect:user") || "{}",
-        );
         updateUser({ avatar: updatedUser.avatar });
         setAvatarFile(null);
       }
