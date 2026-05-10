@@ -1,4 +1,4 @@
-# 🚀 SOS Connect - Frontend Web
+# SOS Connect - Frontend Web
 
 [![React](https://img.shields.io/badge/React-19.2.5-blue.svg)](https://reactjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-~6.0.2-blue.svg)](https://www.typescriptlang.org/)
