@@ -41,7 +41,7 @@ const menuByRole: Record<string, MenuItem[]> = {
 export default function Sidebar() {
   const navigate = useNavigate();
   const location = useLocation();
-  const { logout, user } = useAuth();
+  const { user } = useAuth();
 
   const menuItems = user ? menuByRole[user.role] || [] : [];
 
