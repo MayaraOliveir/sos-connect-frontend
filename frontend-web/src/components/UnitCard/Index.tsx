@@ -2,7 +2,7 @@ import { useState } from "react";
 import UnitModal from "../UnitModal/index";
 import CreateDonationModal from "../CreateDonationModal/index";
 import { useNavigate } from "react-router-dom";
-import { PencilSimple, CheckCircle } from "phosphor-react";
+import { PencilSimple } from "phosphor-react";
 import StatusBadge from "../StatusBadge/index";
 import { useReverseGeocode } from "../../utils/geocoding";
 
